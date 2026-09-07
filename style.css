@@ -1,0 +1,94 @@
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* Digital Clock */
+#clock {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background-color: black;
+    color: white;
+
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    font-size: 20px;
+}
+
+/* Progress Box */
+.progress-box {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+
+    width: 220px;
+}
+
+.progress-box p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Progress Bar */
+.progress {
+    width: 220px;
+    height: 25px;
+
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#progressBar {
+    width: 0%;
+    height: 25px;
+
+    background-color: green;
+}
+
+/* Flash Card */
+.card {
+    width: 440px;
+
+    margin: 180px auto;
+
+    padding: 40px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 10px gray;
+}
+
+/* Answer */
+#answer {
+    display: none;
+    color: green;
+    font-size: 18px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin: 10px;
+
+    background-color: blue;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+#count {
+    font-size: 18px;
+}
