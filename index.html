@@ -1,0 +1,45 @@
+
+<html>
+<head>
+    <title>Flash Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Digital Clock -->
+    <div id="clock">10:30:25 PM</div>
+
+    <!-- Progress Bar -->
+    <div class="progress-box">
+        <p>Progress</p>
+
+        <div class="progress">
+            <div id="progressBar"></div>
+        </div>
+
+        <button onclick="startProgress()">Start</button>
+    </div>
+
+    <!-- Flash Card -->
+    <div class="card">
+
+        <h1>Flash Card</h1>
+
+        <h3 id="question">What is HTML?</h3>
+
+        <p id="answer">
+            HTML stands for HyperText Markup Language.
+        </p>
+
+        <button onclick="viewAnswer()">View Answer</button>
+
+        <button onclick="nextCard()">Next Card</button>
+
+        <p id="count">Card 1 of 5</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
